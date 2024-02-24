@@ -259,7 +259,7 @@
     <div class="container">
 
       <div class="column is-centered has-text-centered">
-        <img src="static/figures/modeloverview.png" alt="Architecture of our ECHO model"/>
+        <img src="static/figures/modeloverview.png" alt=""/>
       </div>    
   </div>
 </div>
@@ -267,22 +267,89 @@
 </section>
 
 
-      <section class="section hero is-light">
+<section class="section hero is-light">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Comparision with SEDS and LPV-DS</h2>
+         <h2 class="title is-3">Comparison with SEDS and LPV-DS</h2> 
+        <div class="content has-text-justified">
           <p>
-            To evaluate the effectiveness of our method, we compared it with SEDS and LPV-DS by using the leaf shape from the LASA handwriting dataset, as shown in above figure. Although both SEDS and LPV-DS managed to reach the final point, they couldn't accurately copy the original example. LPV-DS had a smaller error in following the path than SEDS, but still couldn't match the original example closely.
-          </p><p>
-            In above figure, the red lines show the original examples, black lines with arrows represent the path of movement, and solid black lines are the attempts to recreate the examples. Our method uses the average path from the examples, marked with a green dashed line in above figure. It's worth noting that our method only needs one example, chosen from many based on the best performance. Our findings show that points starting away from the example path eventually meet and then follow this average path, reaching the end goal. This proves our method can capture complex shapes, including those that don't directly move closer to the target over time. Our technique also works well with other shapes in the LASA handwriting dataset.</p>
+            To evaluate the effectiveness of our method, we compared it with SEDS and LPV-DS by using the leaf shape from the LASA handwriting dataset, as shown in the above figure. Although both SEDS and LPV-DS managed to reach the final point, they couldn't accurately copy the original example. LPV-DS had a smaller error in following the path than SEDS, but still couldn't match the original example closely.
+          </p>
+          <p>
+            In the above figure, the red lines show the original examples, black lines with arrows represent the path of movement, and solid black lines are the attempts to recreate the examples. Our method uses the average path from the examples, marked with a green dashed line in above figure. It's worth noting that our method only needs one example, chosen from many based on the best performance. Our findings show that points starting away from the example path eventually meet and then follow this average path, reaching the end goal. This proves our method can capture complex shapes, including those that don't directly move closer to the target over time. Our technique also works well with other shapes in the LASA handwriting dataset.
+          </p>
+        <div class="columns is-centered has-text-centered">
+            <div class="item">
+          <p style="margin-bottom: 30px">
+<!--
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <source src="static/figures/MDM-page.mp4"
+          type="video/mp4">
+        </video>
+ --><br><br>
+        </p>
+        </div>
+            </div>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
   </div>
-</section> 
+</section>
+
+
+    
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="column is-centered has-text-centered">
+        <img src="static/figures/exp.png" alt="dd"/>
+      </div>    
+  </div>
+</div>
+</div>
+</section>
+
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+         <h2 class="title is-3">Experiments</h2> 
+        <div class="content has-text-justified">
+            <p>
+            In our research, we delved into an innovative approach enabling robots to acquire and replicate precise movements and exert the necessary force for task execution, utilizing a hands-on teaching strategy known as kinesthetic teaching. This technique proves invaluable for tasks requiring direct environmental interaction. A standout feature of our methodology is the seamless transition of control from human to robot during tasks, facilitating an efficient and intuitive collaboration. We evaluated our method through a basic yet illustrative test: button pressing and polishing.
+            </p> <p>
+            The test involved a person guiding the robot's arm to different positions to teach the task. Upon release, the robot autonomously executed the task, demonstrating its capability to accurately follow the instructed path and press the button, with the arm movements captured in 3D. The robot exhibited adaptive behavior when manually adjusted, becoming more compliant for smoother interaction, thereby enhancing the collaborative experience.
+            </p> <p>
+            Building on previous experiments where human-applied force directed robot control, we explored complex task execution, such as polishing intricately shaped objects. Utilizing a leaf-shaped object from the LASA handwriting dataset, the robot learned and replicated the polishing motion. We monitored the robot's arm during learning, task execution, and obstacle avoidance, emphasizing its ability to maintain a close trajectory with minimal deviation and apply appropriate force for polishing.
+            </p> <p>
+            The robot demonstrated intelligent obstacle navigation, resuming its task without disruption. An integral experiment component was the introduction of an "energy tank" concept to regulate energy consumption, ensuring safe, efficient operation. The robot's energy management system automatically activated a low-energy mode upon reaching critical levels, halting tasks to prevent issues.
+            </p> <p>
+            This study showcased the robot's real-time adaptability in movement and force application, managing complex tasks and obstacles while effectively regulating its energy consumption for safe, efficient functionality.
+            </p> 
+            
+        <div class="columns is-centered has-text-centered">
+            <div class="item">
+          <p style="margin-bottom: 30px">
+<!--
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <source src="static/figures/MDM-page.mp4"
+          type="video/mp4">
+        </video>
+ --><br><br>
+        </p>
+        </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
 
  
 
